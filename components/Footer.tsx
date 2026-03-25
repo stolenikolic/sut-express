@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <Image
-              src="/sut-express-logo.png"
+              src="/sut-express-logo-web.webp"
               alt="SUT EXPRESS logo"
               width={220}
               height={76}

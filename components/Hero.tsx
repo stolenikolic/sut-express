@@ -4,7 +4,7 @@ import WhatsAppIcon from './icons/WhatsAppIcon';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center">
+    <section id="hero" className="relative min-h-screen flex items-center">
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{

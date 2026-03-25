@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description: 'Brz odvoz građevinskog šuta u Novom Sadu. Dolazimo isti dan. Povoljne cijene, profesionalna usluga. Kontejner za šut, odvoz otpada, čišćenje. ☎ 066 591 7670',
   keywords: 'odvoz šuta novi sad, odvoz građevinskog otpada, kontejner za šut, odvoz šuta isti dan, odvoz namještaja novi sad, čišćenje garaže',
   icons: {
-    icon: '/sut-express-logo.png',
-    shortcut: '/sut-express-logo.png',
-    apple: '/sut-express-logo.png',
+    icon: '/sut-express-icon.png',
+    shortcut: '/sut-express-icon.png',
+    apple: '/sut-express-icon.png',
   },
   openGraph: {
     title: 'SUT EXPRESS - Odvoz Šuta Novi Sad | Isti Dan',

@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Image
-              src="/sut-express-logo.png"
+              src="/sut-express-logo-web.webp"
               alt="SUT EXPRESS logo"
               width={280}
               height={96}
