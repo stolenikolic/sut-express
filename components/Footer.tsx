@@ -69,11 +69,11 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4">Radno vrijeme</h3>
+            <h3 className="text-xl font-bold mb-4">Radno vreme</h3>
             <ul className="space-y-3 text-white/80">
               <li className="flex items-center gap-2">
                 <Clock3 className="w-4 h-4 text-[#8ed356]" />
-                <span>Ponedjeljak - Petak: 07:00 - 19:00</span>
+                <span>Ponedeljak - Petak: 07:00 - 19:00</span>
               </li>
               <li className="pl-6">Subota: 08:00 - 16:00</li>
               <li className="pl-6">Hitne intervencije: 24/7</li>

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'SUT EXPRESS - Odvoz Šuta Novi Sad | Isti Dan | Kontejner za Šut',
-  description: 'Brz odvoz građevinskog šuta u Novom Sadu. Dolazimo isti dan. Povoljne cijene, profesionalna usluga. Kontejner za šut, odvoz otpada, čišćenje. ☎ 066 591 7670',
+  description: 'Brz odvoz građevinskog šuta u Novom Sadu. Dolazimo isti dan. Povoljne cene, profesionalna usluga. Kontejner za šut, odvoz otpada, čišćenje. ☎ 066 591 7670',
   keywords: 'odvoz šuta novi sad, odvoz građevinskog otpada, kontejner za šut, odvoz šuta isti dan, odvoz namještaja novi sad, čišćenje garaže',
   icons: {
     icon: '/sut-express-icon.png',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'SUT EXPRESS - Odvoz Šuta Novi Sad | Isti Dan',
-    description: 'Brz i profesionalan odvoz građevinskog šuta u Novom Sadu. Pošaljite sliku šuta i dobijte cijenu odmah.',
+    description: 'Brz i profesionalan odvoz građevinskog šuta u Novom Sadu. Pošaljite sliku šuta i dobijte cenu odmah.',
     type: 'website',
     locale: 'sr_RS',
   },

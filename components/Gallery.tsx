@@ -25,7 +25,7 @@ export default function Gallery() {
             Naši radovi
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Pogledajte primjere našeg rada i zadovoljne klijente
+            Pogledajte primere našeg rada i zadovoljne klijente
           </p>
         </div>
 

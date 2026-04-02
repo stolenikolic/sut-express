@@ -25,10 +25,10 @@ export default function CoverageArea() {
               <MapPin className="w-8 h-8 text-[#8ed356]" />
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Pokrivamo cijeli Novi Sad
+              Pokrivamo ceo Novi Sad
             </h2>
             <p className="text-xl text-gray-600">
-              Brza dostava usluga u svim dijelovima grada i okolini
+              Brza dostava usluga u svim delovima grada i okolini
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function CoverageArea() {
             <div className="mt-8 p-6 bg-[#8ed356]/10 rounded-xl border-2 border-[#8ed356]/20">
               <p className="text-gray-700 text-center font-medium">
                 <span className="font-bold text-gray-900">Nije na listi?</span>{' '}
-                Kontaktirajte nas - pokrivamo i okolna mjesta!
+                Kontaktirajte nas - pokrivamo i okolna mesta!
               </p>
             </div>
           </div>

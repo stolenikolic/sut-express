@@ -8,8 +8,8 @@ const features = [
   },
   {
     icon: DollarSign,
-    title: 'Povoljne cijene',
-    description: 'Transparentne cijene bez skrivenih troškova. Plaćate samo ono što vidite.',
+    title: 'Povoljne cene',
+    description: 'Transparentne cene bez skrivenih troškova. Plaćate samo ono što vidite.',
   },
   {
     icon: Award,
@@ -19,7 +19,7 @@ const features = [
   {
     icon: Clock,
     title: 'Bez čekanja',
-    description: 'Brz odgovor, brza ponuda, brza realizacija. Vaše vrijeme je dragocjeno.',
+    description: 'Brz odgovor, brza ponuda, brza realizacija. Vaše vreme je dragoceno.',
   },
 ];
 

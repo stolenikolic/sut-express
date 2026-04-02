@@ -23,7 +23,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed max-w-2xl">
-            Brzo, pouzdano i bez čekanja. Pošaljite sliku šuta i dobijte cijenu odmah.
+            Brzo, pouzdano i bez čekanja. Pošaljite sliku šuta i dobijte cenu odmah.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5">

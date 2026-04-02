@@ -11,25 +11,25 @@ const reviews = [
     name: 'Jelena Nikolić',
     location: 'Grbavica, Novi Sad',
     rating: 5,
-    text: 'Nakon renovacije stana imala sam puno šuta. Poslala sam sliku, dobila cijenu za 10 minuta i sutradan je sve bilo odneseno. Super iskustvo!',
+    text: 'Nakon renovacije stana imala sam puno šuta. Poslala sam sliku, dobila cenu za 10 minuta i sutradan je sve bilo odneseno. Super iskustvo!',
   },
   {
     name: 'Stefan Jovanović',
     location: 'Detelinara, Novi Sad',
     rating: 5,
-    text: 'Najbolja usluga u Novom Sadu. Bez skrivenih troškova, tačna cijena kao što su rekli. Dolaze na vrijeme i brzo završe posao.',
+    text: 'Najbolja usluga u Novom Sadu. Bez skrivenih troškova, tačna cena kao što su rekli. Dolaze na vreme i brzo završe posao.',
   },
   {
     name: 'Ana Milanković',
     location: 'Centar, Novi Sad',
     rating: 5,
-    text: 'Trebalo mi je da iznesem stari namještaj iz podruma. Momci su bili ljubazni, brzi i efikasni. Cijena isplativa. Hvala!',
+    text: 'Trebalo mi je da iznesem stari namještaj iz podruma. Momci su bili ljubazni, brzi i efikasni. Cena isplativa. Hvala!',
   },
   {
     name: 'Nikola Đorđević',
     location: 'Telep, Novi Sad',
     rating: 5,
-    text: 'Odličan odnos cijene i kvaliteta. Profesionalni pristup i brza realizacija. Koristio sam ih nekoliko puta i uvijek zadovoljan.',
+    text: 'Odličan odnos cene i kvaliteta. Profesionalni pristup i brza realizacija. Koristio sam ih nekoliko puta i uvijek zadovoljan.',
   },
   {
     name: 'Milica Stojanović',
@@ -48,7 +48,7 @@ export default function Reviews() {
             Šta kažu naši klijenti
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Ocjene i iskustva zadovoljnih korisnika
+            Ocene i iskustva zadovoljnih korisnika
           </p>
         </div>
 

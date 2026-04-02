@@ -10,14 +10,14 @@ const steps = [
   {
     icon: DollarSign,
     number: '02',
-    title: 'Dobijate cijenu',
-    description: 'Za nekoliko minuta dobijate tačnu cijenu bez skrivenih troškova',
+    title: 'Dobijate cenu',
+    description: 'Za nekoliko minuta dobijate tačnu cenu bez skrivenih troškova',
   },
   {
     icon: Truck,
     number: '03',
     title: 'Dolazimo i odvozimo',
-    description: 'Naš tim dolazi u dogovoreno vrijeme i profesionalno obavlja posao',
+    description: 'Naš tim dolazi u dogovoreno vreme i profesionalno obavlja posao',
   },
 ];
 
