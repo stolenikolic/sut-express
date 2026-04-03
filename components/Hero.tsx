@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 md:px-6 relative z-10 pt-32 pb-20">
         <div className="max-w-4xl">
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-            Odvoz šuta u Novom Sadu – <span className="text-[#8ed356]">isti dan</span>
+            Odvoz šuta i ostalog otpada u Novom Sadu – <span className="text-[#8ed356]">isti dan</span>
           </h2>
 
           <p className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed max-w-2xl">

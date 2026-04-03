@@ -1,10 +1,15 @@
-import { Trash2, Sofa, Chrome as Home, Shovel } from 'lucide-react';
+import { Trash2, Sofa, Chrome as Home, Shovel, Truck } from 'lucide-react';
 
 const services = [
   {
     icon: Trash2,
     title: 'Građevinski šut',
     description: 'Odvoz betona, cigle, keramike i ostalog građevinskog otpada',
+  },
+  {
+    icon: Truck,
+    title: 'Prevoz građevinskog materijala',
+    description: 'Prevoz cigle, cementa, šljunka i ostalog materijala na vašu lokaciju',
   },
   {
     icon: Sofa,
@@ -36,7 +41,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
