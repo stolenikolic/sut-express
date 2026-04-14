@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Trash2, Sofa, Chrome as Home, Shovel, Truck } from 'lucide-react';
 
 const services = [
@@ -44,7 +45,7 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {services.map((service, index) => {
             const Icon = service.icon;
-            return (
+            const cardContent = (
               <div
                 key={index}
                 className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100"
@@ -60,6 +61,16 @@ export default function Services() {
                 </p>
               </div>
             );
+
+            if (service.title === 'Građevinski šut') {
+              return (
+                <Link key={index} href="/odvoz-suta-novi-sad" className="block">
+                  {cardContent}
+                </Link>
+              );
+            }
+
+            return cardContent;
           })}
         </div>
       </div>
