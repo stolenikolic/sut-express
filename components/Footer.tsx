@@ -5,12 +5,12 @@ const socialLinks = [
   {
     icon: Instagram,
     name: 'Instagram',
-    link: '#',
+    link: 'https://www.instagram.com/sutexpress.ns?igsh=ZWxib2w0a2V0bDgw',
   },
   {
     icon: Facebook,
     name: 'Facebook',
-    link: '#',
+    link: 'https://www.facebook.com/share/1CWeuPboF9/?mibextid=wwXIfr',
   },
 ];
 

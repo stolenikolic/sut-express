@@ -93,20 +93,20 @@ export default function OdvozSutaNoviSadPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
-            <p className="text-xl text-gray-700 leading-relaxed">
-              Usluga <strong>odvoz šuta Novi Sad</strong> namenjena je svima koji žele brzo i bez
-              komplikacija da uklone građevinski otpad. Bez obzira da li renovirate stan, kuću ili
-              radite na većem gradilištu, organizujemo dolazak i odvoz u najkraćem roku. U praksi to
-              znači da ne gubite dane na traženje prevoza, angažovanje dodatne radne snage i
-              koordinaciju više izvođača. Radimo u gradu i okolini, a dolazak je moguć i isti dan,
-              uz precizan dogovor termina i jasnu komunikaciju od prvog poziva.
-              Klijenti nas najčešće biraju kada im je potreban <strong>brz odvoz šuta</strong> bez
-              zastoja u radovima.
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Gde radimo u Novom Sadu</h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              Redovno radimo na teritoriji celog grada, uključujući Veternik, Futog, Kamenicu i Petrovaradin. Ekipa izlazi na teren po dogovoru, sa fokusom da se posao završi
+              brzo i bez čekanja.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              Bez obzira na deo grada, organizujemo dolazak i odvoz u skladu sa vašim rasporedom i
+              dinamikom radova. Na taj način dobijate pouzdanu uslugu na jednoj adresi ili više
+              lokacija tokom istog dana.
             </p>
             <div className="mt-10 rounded-2xl overflow-hidden shadow-lg border border-gray-100">
               <Image
-                src="/odvoz-suta-Novi-Sad-kamion.webp"
-                alt="odvoz šuta Novi Sad kamion"
+                src="/odvoz-gradjevinskog-suta-novi-sad-usluga.webp"
+                alt="odvoz građevinskog šuta Novi Sad usluga"
                 className="w-full h-[320px] md:h-[420px] object-cover"
                 width={1200}
                 height={800}
@@ -229,20 +229,20 @@ export default function OdvozSutaNoviSadPage() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Gde radimo u Novom Sadu</h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Redovno radimo na teritoriji celog grada, uključujući Veternik, Futog, Kamenicu i Petrovaradin. Ekipa izlazi na teren po dogovoru, sa fokusom da se posao završi
-              brzo i bez čekanja.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Bez obzira na deo grada, organizujemo dolazak i odvoz u skladu sa vašim rasporedom i
-              dinamikom radova. Na taj način dobijate pouzdanu uslugu na jednoj adresi ili više
-              lokacija tokom istog dana.
+            <p className="text-xl text-gray-700 leading-relaxed">
+              Usluga <strong>odvoz šuta Novi Sad</strong> namenjena je svima koji žele brzo i bez
+              komplikacija da uklone građevinski otpad. Bez obzira da li renovirate stan, kuću ili
+              radite na većem gradilištu, organizujemo dolazak i odvoz u najkraćem roku. U praksi to
+              znači da ne gubite dane na traženje prevoza, angažovanje dodatne radne snage i
+              koordinaciju više izvođača. Radimo u gradu i okolini, a dolazak je moguć i isti dan,
+              uz precizan dogovor termina i jasnu komunikaciju od prvog poziva.
+              Klijenti nas najčešće biraju kada im je potreban <strong>brz odvoz šuta</strong> bez
+              zastoja u radovima.
             </p>
             <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
               <Image
-                src="/odvoz-gradjevinskog-suta-novi-sad-usluga.webp"
-                alt="odvoz građevinskog šuta Novi Sad usluga"
+                src="/odvoz-suta-Novi-Sad-kamion.webp"
+                alt="odvoz šuta Novi Sad kamion"
                 className="w-full h-[300px] md:h-[380px] object-cover"
                 width={1200}
                 height={800}
