@@ -3,10 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { MessageCircle, Phone } from 'lucide-react';
 import Header from '@/components/Header';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import StickyBottomBar from '@/components/StickyBottomBar';
 import Faq from '@/components/Faq';
-import ViberIcon from '@/components/icons/ViberIcon';
 
 export const metadata: Metadata = {
   title: 'Odvoz šuta Novi Sad | Brz odvoz otpada | Šut Express',
@@ -196,41 +196,7 @@ export default function OdvozSutaNoviSadPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-5">Zakažite odvoz odmah</h2>
-            <p className="text-xl text-gray-300 mb-10">
-              Pošaljite poruku ili nas pozovite i dobijte termin i cenu u najkraćem roku.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-5">
-              <a
-                href="tel:+381665917670"
-                className="inline-flex items-center justify-center gap-3 bg-[#8ed356] hover:bg-[#7bc244] text-black font-bold text-lg px-10 py-5 rounded-2xl shadow-2xl hover:shadow-[#8ed356]/50 transition-all duration-300 hover:scale-105"
-              >
-                <Phone className="w-6 h-6" />
-                Pozovi odmah
-              </a>
-              <a
-                href="https://wa.me/381665917670"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-bold text-lg px-10 py-5 rounded-2xl border-2 border-white/30 hover:border-white/50 shadow-xl transition-all duration-300 hover:scale-105"
-              >
-                <MessageCircle className="w-6 h-6" />
-                Pošalji poruku na WhatsApp
-              </a>
-              <a
-                href="viber://chat?number=381665917670"
-                className="inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-bold text-lg px-10 py-5 rounded-2xl border-2 border-white/30 hover:border-white/50 shadow-xl transition-all duration-300 hover:scale-105"
-              >
-                <ViberIcon className="w-6 h-6" />
-                Pošalji poruku na Viber
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Contact />
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6">
