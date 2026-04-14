@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 const siteUrl = 'https://sutexpress.rs';
+const sharePreviewImage = '/preview-share.jpg?v=1';
 const socialLinks = [
   'https://www.instagram.com/sutexpress.ns?igsh=ZWxib2w0a2V0bDgw',
   'https://www.facebook.com/share/1CWeuPboF9/?mibextid=wwXIfr',
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     locale: 'sr_RS',
     images: [
       {
-        url: '/preview-slika.png',
+        url: sharePreviewImage,
         width: 1200,
         height: 630,
         alt: 'SUT EXPRESS - odvoz i transport usluge',
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SUT EXPRESS - Odvoz Šuta Novi Sad | Isti Dan',
     description: 'Brz i profesionalan odvoz građevinskog šuta u Novom Sadu. Pošaljite sliku šuta i dobijte cenu odmah.',
-    images: ['/preview-slika.png'],
+    images: [sharePreviewImage],
   },
   verification: {
     google: "XSeu3qEDwkfq_bA5Q2I1xjOdqh4Pzg9AuSLk0tjV8nQ",
@@ -57,7 +58,7 @@ export default function RootLayout({
     name: 'SUT EXPRESS',
     url: siteUrl,
     logo: `${siteUrl}/favicon-round-v3.png`,
-    image: `${siteUrl}/preview-slika.png`,
+    image: `${siteUrl}/preview-share.jpg?v=1`,
     sameAs: socialLinks,
   };
 
