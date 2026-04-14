@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StickyBottomBar from '@/components/StickyBottomBar';
 import Faq from '@/components/Faq';
+import ViberIcon from '@/components/icons/ViberIcon';
 
 export const metadata: Metadata = {
   title: 'Odvoz šuta Novi Sad | Brz odvoz otpada | Šut Express',
@@ -218,6 +219,13 @@ export default function OdvozSutaNoviSadPage() {
               >
                 <MessageCircle className="w-6 h-6" />
                 Pošalji poruku na WhatsApp
+              </a>
+              <a
+                href="viber://chat?number=381665917670"
+                className="inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-bold text-lg px-10 py-5 rounded-2xl border-2 border-white/30 hover:border-white/50 shadow-xl transition-all duration-300 hover:scale-105"
+              >
+                <ViberIcon className="w-6 h-6" />
+                Pošalji poruku na Viber
               </a>
             </div>
           </div>
