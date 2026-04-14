@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 const siteUrl = 'https://sutexpress.rs';
-const sharePreviewImage = '/preview-share.jpg?v=2';
+const sharePreviewImage = '/preview-share.jpg?v=3';
 const socialLinks = [
   'https://www.instagram.com/sutexpress.ns?igsh=ZWxib2w0a2V0bDgw',
   'https://www.facebook.com/share/1CWeuPboF9/?mibextid=wwXIfr',
@@ -58,7 +58,7 @@ export default function RootLayout({
     name: 'SUT EXPRESS',
     url: siteUrl,
     logo: `${siteUrl}/favicon-round-v3.png`,
-    image: `${siteUrl}/preview-share.jpg?v=2`,
+    image: `${siteUrl}/preview-share.jpg?v=3`,
     sameAs: socialLinks,
   };
 
