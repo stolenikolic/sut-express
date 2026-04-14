@@ -80,3 +80,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+.shared-hero-bg {
+  background-image: url('/hero-mobile-optimized.webp');
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .shared-hero-bg {
+    background-image: url('/hero-img.webp');
+    background-position: center;
+  }
+}

@@ -7,7 +7,6 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import StickyBottomBar from '@/components/StickyBottomBar';
 import Faq from '@/components/Faq';
-import { SHARED_HERO_BACKGROUND_IMAGE } from '@/lib/heroImage';
 
 export const metadata: Metadata = {
   title: 'Odvoz šuta Novi Sad | Brz odvoz otpada | Šut Express',
@@ -43,10 +42,7 @@ export default function OdvozSutaNoviSadPage() {
     <main className="min-h-screen pb-24 md:pb-0">
       <section id="hero" className="relative min-h-screen flex items-center">
         <div
-          className="absolute inset-0 bg-cover bg-center z-0"
-          style={{
-            backgroundImage: SHARED_HERO_BACKGROUND_IMAGE,
-          }}
+          className="absolute inset-0 bg-cover bg-center shared-hero-bg z-0"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/65 to-black/55"></div>
         </div>
