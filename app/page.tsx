@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
+import Faq from '@/components/Faq';
 import Steps from '@/components/Steps';
 import Gallery from '@/components/Gallery';
 import WhyChooseUs from '@/components/WhyChooseUs';
@@ -14,6 +15,7 @@ export default function Home() {
     <main className="min-h-screen pb-24 md:pb-0">
       <Hero />
       <Services />
+      <Faq />
       <Steps />
       <WhyChooseUs />
       <Gallery />
