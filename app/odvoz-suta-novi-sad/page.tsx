@@ -7,6 +7,7 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import StickyBottomBar from '@/components/StickyBottomBar';
 import Faq from '@/components/Faq';
+import { SHARED_HERO_BACKGROUND_IMAGE } from '@/lib/heroImage';
 
 export const metadata: Metadata = {
   title: 'Odvoz šuta Novi Sad | Brz odvoz otpada | Šut Express',
@@ -44,8 +45,7 @@ export default function OdvozSutaNoviSadPage() {
         <div
           className="absolute inset-0 bg-cover bg-center z-0"
           style={{
-            backgroundImage:
-              "url('https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+            backgroundImage: SHARED_HERO_BACKGROUND_IMAGE,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/65 to-black/55"></div>

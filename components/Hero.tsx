@@ -1,4 +1,5 @@
 import { Phone } from 'lucide-react';
+import { SHARED_HERO_BACKGROUND_IMAGE } from '@/lib/heroImage';
 import Header from './Header';
 import WhatsAppIcon from './icons/WhatsAppIcon';
 
@@ -8,7 +9,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: "url('https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=1920')",
+          backgroundImage: SHARED_HERO_BACKGROUND_IMAGE,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-black/65 to-black/55"></div>

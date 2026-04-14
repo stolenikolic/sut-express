@@ -48,7 +48,7 @@ export default function Services() {
             const cardContent = (
               <div
                 key={index}
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100"
+                className="group h-full bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100"
               >
                 <div className="bg-[#8ed356]/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#8ed356] transition-colors duration-300">
                   <Icon className="w-8 h-8 text-[#8ed356] group-hover:text-white transition-colors duration-300" />
@@ -65,6 +65,14 @@ export default function Services() {
             if (service.title === 'Građevinski šut') {
               return (
                 <Link key={index} href="/odvoz-suta-novi-sad" className="block">
+                  {cardContent}
+                </Link>
+              );
+            }
+
+            if (service.title === 'Prevoz građevinskog materijala') {
+              return (
+                <Link key={index} href="/prevoz-gradjevinskog-materijala-novi-sad" className="block">
                   {cardContent}
                 </Link>
               );
