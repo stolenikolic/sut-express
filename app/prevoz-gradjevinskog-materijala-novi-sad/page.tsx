@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
-import { MessageCircle, Phone } from 'lucide-react';
+import { Clock, HardHat, Layers, MessageCircle, Package, Phone, Truck, Zap } from 'lucide-react';
 import Header from '@/components/Header';
 import Contact from '@/components/Contact';
+import CoverageArea from '@/components/CoverageArea';
 import Footer from '@/components/Footer';
 import StickyBottomBar from '@/components/StickyBottomBar';
 import Faq from '@/components/Faq';
@@ -11,7 +11,7 @@ import Faq from '@/components/Faq';
 export const metadata: Metadata = {
   title: 'Prevoz građevinskog materijala Novi Sad | Brza isporuka | Šut Express',
   description:
-    'Prevoz građevinskog materijala Novi Sad uz brzu i pouzdanu isporuku, bez kašnjenja i komplikacija.',
+    'Prevozimo ciglu, pesak, cement i ostali građevinski materijal direktno do vaše lokacije u Novom Sadu. Brz i pouzdan prevoz bez čekanja i komplikacija.',
 };
 
 const relatedServices = [
@@ -37,6 +37,71 @@ const relatedServices = [
   },
 ];
 
+const highlights = [
+  {
+    icon: Truck,
+    title: 'Dostava na adresu',
+    description: 'Materijal preuzimamo i isporučujemo direktno na vašu lokaciju.',
+  },
+  {
+    icon: Package,
+    title: 'Sve vrste materijala',
+    description: 'Prevozimo cement, ciglu, blokove, pesak, šljunak i sličan teret.',
+  },
+  {
+    icon: Clock,
+    title: 'Fleksibilni termini',
+    description: 'Termine preuzimanja i isporuke prilagođavamo vašoj dinamici radova.',
+  },
+];
+
+const prevozServiceSections = [
+  {
+    icon: HardHat,
+    heading: 'Kada je potreban prevoz materijala',
+    body: (
+      <>
+        Najčešće kada počinju zidanje, livenje ili renoviranje, a nemate organizovan transport.
+        Usluga <strong>prevoz građevinskog materijala Novi Sad</strong> pomaže da materijal stigne
+        na vreme, bez dodatnog čekanja i zastoja na gradilištu.
+      </>
+    ),
+  },
+  {
+    icon: Layers,
+    heading: 'Šta prevozimo',
+    body: (
+      <>
+        Prevozimo ciglu, blokove, cement, pesak, šljunak, ploče, armaturno gvožđe i drugi građevinski
+        materijal. Ako niste sigurni da li vaš teret spada u uslugu, pošaljite upit i dobijate brz
+        odgovor.
+      </>
+    ),
+  },
+  {
+    icon: Phone,
+    heading: 'Kako funkcioniše usluga',
+    body: (
+      <>
+        Javite se telefonom ili porukom, pošaljite osnovne informacije i lokaciju, a mi organizujemo
+        preuzimanje i isporuku. <strong>Prevoz građevinskog materijala</strong> realizujemo jasno i
+        bez komplikovane procedure.
+      </>
+    ),
+  },
+  {
+    icon: Zap,
+    heading: 'Brzina i organizacija',
+    body: (
+      <>
+        Radimo svakodnevno i prilagođavamo termine vašem planu radova. Za lokacije kao što su Liman,
+        Grbavica, Telep i drugi delovi grada, <strong>prevoz građevinskog materijala u Novom Sadu</strong>{' '}
+        organizujemo brzo i pouzdano.
+      </>
+    ),
+  },
+];
+
 export default function PrevozGradjevinskogMaterijalaNoviSadPage() {
   return (
     <main className="min-h-screen pb-24 md:pb-0">
@@ -52,14 +117,12 @@ export default function PrevozGradjevinskogMaterijalaNoviSadPage() {
         <div className="container mx-auto px-4 md:px-6 relative z-10 pt-32 pb-20">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-              Prevoz građevinskog materijala Novi Sad –{' '}
+              Prevoz građevinskog materijala u Novom Sad –{' '}
               <span className="text-[#8ed356]">brza i pouzdana isporuka</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed max-w-3xl">
-              Ako vam je potreban siguran i brz prevoz građevinskog materijala, organizujemo
-              isporuku direktno na vašu lokaciju bez kašnjenja i komplikacija. Radimo sa privatnim
-              klijentima i firmama, uz fleksibilne termine i dogovor prema vašim potrebama.
+            Organizujemo brz i pouzdan prevoz građevinskog materijala u Novom Sadu i okolini, sa isporukom direktno na vašu lokaciju.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5">
@@ -87,141 +150,76 @@ export default function PrevozGradjevinskogMaterijalaNoviSadPage() {
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
-            <p className="text-xl text-gray-700 leading-relaxed">
-              <strong>Prevoz građevinskog materijala</strong> je ključan deo svakog projekta.
-              Kašnjenje u isporuci često usporava radove, zato je važno imati pouzdan transport koji
-              dolazi tačno na vreme.
-              <br />
-              <br />
-              Naš tim organizuje prevoz od tačke preuzimanja do vaše lokacije, bez nepotrebnog
-              čekanja i dodatnih problema.
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Šta je ova usluga?</h2>
+            <p className="text-xl text-gray-600 leading-relaxed">
+              Kada gradite, renovirate ili uređujete, materijal mora biti tu kada treba - ne sutra,
+              ne prekosutra. Mi preuzimamo transport od dobavljača ili magacina direktno do vašeg
+              gradilišta, kuće ili dvorišta. Vi se bavite gradnjom, mi se bavimo logistikom.
             </p>
-            <div className="mt-10 rounded-2xl overflow-hidden shadow-lg border border-gray-100">
-              <Image
-                src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt="prevoz građevinskog materijala novi sad"
-                className="w-full h-[320px] md:h-[420px] object-cover"
-                width={1200}
-                height={800}
-                sizes="(max-width: 768px) 100vw, 896px"
-                quality={75}
-                loading="lazy"
-              />
-            </div>
           </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {highlights.map((item, i) => {
+              const Icon = item.icon;
+
+              return (
+                <div
+                  key={i}
+                  className="group h-full bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100"
+                >
+                  <div className="bg-[#8ed356]/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#8ed356] transition-colors duration-300">
+                    <Icon className="w-8 h-8 text-[#8ed356] group-hover:text-white transition-colors duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{item.description}</p>
+                </div>
+              );
+            })}
+          </div>
+
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-4xl mx-auto space-y-12">
-            <article className="bg-white p-8 md:p-10 rounded-2xl shadow-lg border border-gray-100">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Kada vam je potreban prevoz materijala?
-              </h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Najčešće nas klijenti kontaktiraju kada započinju radove i treba im brza dostava
-                materijala na gradilište ili kućnu adresu.
-              </p>
-              <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 leading-relaxed">
-                <li>Takođe, često radimo prevoz za one koji nemaju sopstveni transport</li>
-                <li>za one koji žele da izbegnu više odlazaka</li>
-                <li>i za one koji žele da izbegnu gubljenje vremena</li>
-              </ul>
-              <p className="text-lg text-gray-700 leading-relaxed mt-4">
-                Bez obzira na situaciju, cilj je da materijal stigne kada vam je potreban, kako bi
-                radovi tekli bez prekida.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mt-4">
-                U ovakvim situacijama, brz i organizovan prevoz često pravi veliku razliku u tempu
-                radova.
-              </p>
-            </article>
+          <div className="max-w-4xl mx-auto text-center mb-14">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-5">
+              Prevoz građevinskog materijala Novi Sad - kako izgleda usluga
+            </h2>
+            <p className="text-xl text-gray-600 leading-relaxed">
+              Organizujemo brz i pouzdan prevoz građevinskog materijala u Novom Sadu, od preuzimanja
+              do isporuke na vašu adresu. U nastavku pogledajte kada je usluga najpotrebnija, šta
+              prevozimo i kako funkcioniše realizacija na terenu.
+            </p>
+          </div>
 
-            <article className="bg-white p-8 md:p-10 rounded-2xl shadow-lg border border-gray-100">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Šta prevozimo?</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Vršimo prevoz različitih vrsta građevinskog materijala, uključujući cement, ciglu,
-                blokove, pesak, šljunak i sličan teret.
-              </p>
-              <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 leading-relaxed">
-                <li>cement</li>
-                <li>cigla i blokovi</li>
-                <li>pesak i šljunak</li>
-                <li>sličan teret</li>
-              </ul>
-              <p className="text-lg text-gray-700 leading-relaxed mt-4">
-                Transport organizujemo u skladu sa količinom i vrstom materijala, vodeći računa o
-                sigurnosti i efikasnosti tokom cele isporuke.
-              </p>
-            </article>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {prevozServiceSections.map((item, i) => {
+              const Icon = item.icon;
 
-            <article className="bg-white p-8 md:p-10 rounded-2xl shadow-lg border border-gray-100">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Kako funkcioniše usluga?
-              </h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Dovoljno je da nam pošaljete osnovne informacije o materijalu i lokaciji. Nakon toga
-                dogovaramo termin preuzimanja i isporuke.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Dolazimo u dogovoreno vreme, preuzimamo materijal i vršimo transport bez zadržavanja.
-                Sve je organizovano tako da vi ne gubite vreme i možete da nastavite radove bez{' '}
-                čekanja.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mt-4">
-                Ceo proces je jednostavan i bez komplikacija, tako da ne morate da brinete o
-                organizaciji transporta.
-              </p>
-            </article>
-
-            <article className="bg-white p-8 md:p-10 rounded-2xl shadow-lg border border-gray-100">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Brz transport bez zastoja
-              </h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Razumemo koliko je važno da materijal stigne na vreme. U većini slučajeva možemo
-                organizovati prevoz u kratkom roku, u skladu sa vašim planom rada. Radimo fleksibilno
-                i prilagođavamo se situaciji na terenu.
-              </p>
-            </article>
+              return (
+                <div
+                  key={i}
+                  className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100"
+                >
+                  <div className="flex items-center gap-4 mb-5">
+                    <div className="bg-[#8ed356]/15 p-3 rounded-xl">
+                      <Icon className="w-6 h-6 text-[#8ed356]" />
+                    </div>
+                    <h3 className="text-xl font-bold text-gray-900">{item.heading}</h3>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed">{item.body}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
 
       <Contact />
 
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Gde vršimo prevoz?</h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Prevoz građevinskog materijala Novi Sad obavljamo na teritoriji celog grada i okolnih
-              naselja. Dolazimo na lokaciju brzo i organizujemo transport bez komplikacija.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Ako vam je potreban <strong>pouzdan prevoz građevinskog materijala</strong>, slobodno
-              nas kontaktirajte. Pošaljite osnovne informacije i dobićete brz odgovor sa predlogom
-              termina i cene.
-              Prevoz građevinskog materijala Novi Sad organizujemo brzo i efikasno, bez obzira na
-              deo grada.
-            </p>
-            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
-              <Image
-                src="https://images.pexels.com/photos/100667/pexels-photo-100667.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt="isporuka građevinskog materijala novi sad"
-                className="w-full h-[300px] md:h-[380px] object-cover"
-                width={1200}
-                height={800}
-                sizes="(max-width: 768px) 100vw, 896px"
-                quality={75}
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <CoverageArea />
 
       <Faq />
 
