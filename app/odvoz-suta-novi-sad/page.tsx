@@ -11,7 +11,7 @@ import Faq from '@/components/Faq';
 export const metadata: Metadata = {
   title: 'Odvoz šuta Novi Sad | Brz odvoz otpada | Šut Express',
   description:
-    'Brz i pouzdan odvoz građevinskog šuta i ostalog otpada u Novom Sadu. Dolazak isti dan, povoljne cene. Pozovite nas i zakažite prvi slobodan termin.',
+    'Brz i pouzdan odvoz šuta Novi Sad za stanove, kuće i gradilišta. Dolazak isti dan, povoljna cena i organizovano iznošenje šuta. Pozovite nas i zakažite termin.',
 };
 
 const relatedServices = [
@@ -41,17 +41,20 @@ const highlights = [
   {
     icon: Truck,
     title: 'Dolazak na adresu',
-    description: 'Ekipa dolazi na vašu lokaciju, organizuje utovar i odmah kreće sa odvozom šuta.',
+    description:
+      'Ekipa dolazi na lokaciju, radi utovar i pokreće odvoz šuta bez dodatne organizacije sa vaše strane.',
   },
   {
     icon: Package,
     title: 'Odvoz građevinskog šuta i otpada',
-    description: 'Preuzimamo ciglu, beton, keramiku, zemlju i drugi građevinski otpad bez zadržavanja.',
+    description:
+      'Preuzimamo ciglu, beton, keramiku, zemlju i drugi građevinski otpad, uz opciju kontejnera po dogovoru.',
   },
   {
     icon: Clock,
     title: 'Brz dolazak i fleksibilni termini',
-    description: 'Termine prilagođavamo vašim radovima kako bi uklanjanje šuta bilo brzo i organizovano.',
+    description:
+      'Termine prilagođavamo vašim radovima kako bi odvoz šuta isti dan bio moguć kada je najpotrebnije.',
   },
 ];
 
@@ -62,7 +65,8 @@ const odvozServiceSections = [
     body: (
       <>
         Najčešće nas zovu nakon renoviranja, rušenja ili čišćenja, kada višak šuta blokira prostor i
-        usporava posao. Organizujemo brz odvoz šuta kako biste nastavili radove bez zastoja.
+        usporava posao. Organizujemo brz odvoz šuta kako biste nastavili radove bez zastoja i dodatnih
+        troškova čekanja.
       </>
     ),
   },
@@ -82,7 +86,7 @@ const odvozServiceSections = [
     body: (
       <>
         Javite se telefonom ili porukom, pošaljite lokaciju i kratak opis, a mi predlažemo termin i cenu.
-        Dolazimo, utovaramo i završavamo odvoz šuta bez komplikacija.
+        Dolazimo, utovaramo i završavamo odvoz šuta bez komplikacija, uključujući iznošenje šuta po potrebi.
       </>
     ),
   },
@@ -113,11 +117,14 @@ export default function OdvozSutaNoviSadPage() {
         <div className="container mx-auto px-4 md:px-6 relative z-10 pt-32 pb-20">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-              Odvoz šuta u Novom Sadu- <span className="text-[#8ed356]">brz i pouzdan odvoz istog dana</span>
+              Odvoz šuta u Novom Sadu - <span className="text-[#8ed356]">brz i pouzdan odvoz istog dana</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-200 mb-12 leading-relaxed max-w-3xl">
-            Organizujemo brz i pouzdan odvoz građevinskog šuta i otpada bez čekanja i komplikacija. Dolazimo na lokaciju, vršimo utovar i uklanjanje otpada u dogovorenom terminu. Pozovite nas ili pošaljite poruku i dobijate brzu procenu i prvi slobodan termin.
+              Organizujemo <strong>odvoz šuta Novi Sad</strong> bez čekanja i komplikacija, od manjih
+              renoviranja do većih gradilišta. Dolazimo na lokaciju, vršimo utovar i uklanjanje šuta u
+              dogovorenom terminu, uz jasnu procenu troškova. Pozovite nas ili pošaljite poruku i
+              dobijate prvi slobodan termin. Ako pretražujete odvoz suta novi sad, na pravom ste mestu.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5">
@@ -152,7 +159,9 @@ export default function OdvozSutaNoviSadPage() {
             <p className="text-xl text-gray-600 leading-relaxed">
               Tokom renoviranja ili gradnje, građevinski šut brzo zauzme prostor i oteža dalje radove.
               Organizujemo preuzimanje, utovar i odvoz šuta direktno sa lokacije, bez dodatne
-              organizacije sa vaše strane. Vi se fokusirate na posao, a mi rešavamo uklanjanje otpada.
+              organizacije sa vaše strane. Ako je potreban kontejner za šut novi sad, dogovaramo i tu
+              opciju uz isti kontakt. Pokrivamo i upite za odvoz gradjevinskog otpada novi sad kroz
+              istu organizovanu uslugu.
             </p>
           </div>
 
@@ -186,7 +195,8 @@ export default function OdvozSutaNoviSadPage() {
             <p className="text-xl text-gray-600 leading-relaxed">
               Proces je jednostavan: kontaktirate nas, dogovaramo termin, ekipa dolazi na lokaciju i
               završava utovar i odvoz. Tako organizovan odvoz šuta u Novom Sadu štedi vreme i olakšava
-              nastavak radova bez zadržavanja.
+              nastavak radova bez zadržavanja. U startu dobijate jasan okvir za odvoz šuta cena, bez
+              skrivenih stavki.
             </p>
           </div>
 
@@ -209,6 +219,48 @@ export default function OdvozSutaNoviSadPage() {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+              Odvoz šuta Novi Sad – cijena, usluga i odvoz istog dana
+            </h2>
+            <div className="space-y-5 text-lg text-gray-700 leading-relaxed">
+              <p>
+                Potrebna vam je pouzdana usluga za odvoz šuta u Novom Sadu? Šut Express nudi brzo,
+                efikasno i profesionalno rješenje za uklanjanje građevinskog otpada iz stanova, kuća i
+                poslovnih prostora. Bez obzira na količinu šuta, naš tim dolazi na vašu lokaciju i
+                organizuje kompletan proces od iznošenja do odlaganja.
+              </p>
+              <p>
+                Usluga odvoza šuta Novi Sad obuhvata sve vrste otpada nastalog tokom renoviranja i
+                gradnje, uključujući ciglu, beton, pločice, malter i druge materijale. Posebno smo
+                fokusirani na brzu realizaciju, pa je moguće organizovati odvoz šuta isti dan na
+                teritoriji Novog Sada.
+              </p>
+              <p>
+                Cijena odvoza šuta zavisi od količine materijala, spratnosti objekta i dodatnih usluga
+                poput iznošenja. Naš cilj je da ponudimo transparentnu i pristupačnu cijenu za svakog
+                klijenta.
+              </p>
+              <p>
+                Pored klasičnog odvoza, nudimo i iznajmljivanje kontejnera za šut u Novom Sadu, što je
+                idealno rješenje za veće radove i dugotrajnije projekte.
+              </p>
+              <p>
+                Ako vam je potreban brz i siguran <strong>odvoz šuta Novi Sad</strong>, kontaktirajte nas i riješite
+                problem u najkraćem roku.
+              </p>
+              <p>
+                Naš tim svakodnevno vrši odvoz šuta u Novom Sadu uz brzu organizaciju i dolazak na
+                lokaciju u najkraćem roku. Ako vam je potreban pouzdan <strong>odvoz šuta Novi Sad</strong>,
+                kontaktirajte nas i riješite problem bez čekanja.
+              </p>
+            </div>
           </div>
         </div>
       </section>

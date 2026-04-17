@@ -36,6 +36,21 @@ const faqItems = [
     answer:
       'Odvoz šuta u Novom Sadu možete zakazati pozivom ili porukom na WhatsApp/Viber. Pošaljite lokaciju i opis otpada, a mi potvrđujemo termin i cenu u najkraćem roku.',
   },
+  {
+    question: 'Da li nudite kontejner za šut u Novom Sadu?',
+    answer:
+      'Da, u zavisnosti od količine otpada i trajanja radova možemo organizovati i kontejner za šut novi sad. Najbolje je da pošaljete opis situacije i dobićete preporuku najisplativije opcije.',
+  },
+  {
+    question: 'Da li radite odvoz šuta za poslovne objekte?',
+    answer:
+      'Da, radimo odvoz šuta i građevinskog otpada za stanove, kuće, lokale i poslovne objekte. Termin i dinamiku prilagođavamo vašem radnom vremenu kako posao ne bi stajao.',
+  },
+  {
+    question: 'Šta utiče na odvoz šuta cenu?',
+    answer:
+      'Na odvoz šuta cena najviše utiču količina otpada, pristup objektu, potreba za iznošenjem šuta i udaljenost lokacije. Nakon kratkog opisa ili fotografije dobijate jasnu procenu pre dolaska ekipe.',
+  },
 ];
 
 export default function Faq() {
