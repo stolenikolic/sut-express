@@ -117,7 +117,7 @@ export default function PrevozGradjevinskogMaterijalaNoviSadPage() {
         <div className="container mx-auto px-4 md:px-6 relative z-10 pt-32 pb-20">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-              Prevoz građevinskog materijala u Novom Sad –{' '}
+              Prevoz građevinskog materijala u Novom Sadu –{' '}
               <span className="text-[#8ed356]">brza i pouzdana isporuka</span>
             </h1>
 

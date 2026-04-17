@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'SUT EXPRESS - Odvoz Šuta Novi Sad | Isti Dan | Kontejner za Šut',
   description: 'Brz odvoz građevinskog šuta u Novom Sadu. Dolazimo isti dan. Povoljne cene, profesionalna usluga. Kontejner za šut, odvoz otpada, čišćenje. ☎ 066 591 7670',
-  keywords: 'odvoz šuta novi sad, odvoz građevinskog otpada, kontejner za šut, odvoz šuta isti dan, odvoz namještaja novi sad, čišćenje garaže',
+  keywords: 'odvoz šuta novi sad, odvoz građevinskog otpada, kontejner za šut, odvoz šuta isti dan, odvoz namještaja novi sad, čišćenje garaže, prevoz gradjevinskog materijala',
   icons: {
     icon: '/favicon-round-v3.png?v=3',
     shortcut: '/favicon-round-v3.png?v=3',
@@ -52,6 +52,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Šut Express',
+    alternateName: 'SUT EXPRESS',
+    url: siteUrl,
+  };
+
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
@@ -65,6 +73,10 @@ export default function RootLayout({
   return (
     <html lang="sr">
       <body className={inter.className}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
